@@ -1,4 +1,4 @@
-FROM ruby:2.2
+FROM ruby:2.4
 MAINTAINER Daniel Jones <tortxof@gmail.com>
 
 RUN groupadd -r app && useradd -r -g app app

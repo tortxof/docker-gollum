@@ -4,7 +4,7 @@ MAINTAINER Daniel Jones <tortxof@gmail.com>
 RUN groupadd -r app && useradd -r -g app app
 
 RUN apt-get update && \
-    apt-get install -y libicu-dev && \
+    apt-get install -y libicu-dev cmake && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 

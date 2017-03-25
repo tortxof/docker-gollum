@@ -18,4 +18,4 @@ WORKDIR /data
 
 EXPOSE 4567
 
-CMD ["gollum", "--h1-title", "--allow-uploads", "dir"]
+CMD ["gollum", "--h1-title", "--allow-uploads", "dir", "--emoji"]

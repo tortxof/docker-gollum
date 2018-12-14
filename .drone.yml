@@ -11,3 +11,6 @@ steps:
       from_secret: registry_password
     repo: registry.djones.co/gollum
     registry: registry.djones.co
+  when:
+    branch:
+    - master

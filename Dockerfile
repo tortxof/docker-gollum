@@ -1,5 +1,6 @@
-FROM ruby:2.4
-MAINTAINER Daniel Jones <tortxof@gmail.com>
+FROM ruby:2.5
+
+LABEL maintainer="Daniel Jones <tortxof@gmail.com>"
 
 RUN groupadd -r app && useradd -r -g app app
 
